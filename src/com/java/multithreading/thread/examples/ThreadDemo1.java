@@ -1,6 +1,6 @@
 package com.java.multithreading.thread.examples;
 
-public class ThreadDemo extends Thread{
+public class ThreadDemo1  implements Runnable{
 	/*
 	public void start() {
 		System.out.println("cutom start method ");

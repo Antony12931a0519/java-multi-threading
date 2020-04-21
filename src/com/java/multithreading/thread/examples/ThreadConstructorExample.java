@@ -3,6 +3,7 @@ package com.java.multithreading.thread.examples;
 public class ThreadConstructorExample extends Thread {
 
 	public static void main(String[] args) {
+		
 		ThreadConstructorExample t = new ThreadConstructorExample();
 
 		ThreadUsingRunnableExample runnable = new ThreadUsingRunnableExample();
@@ -10,7 +11,10 @@ public class ThreadConstructorExample extends Thread {
 		Thread thread = new Thread();
 
 		Thread t1 = new Thread(runnable);
+		t1.start();
+
 		
+		//constructor for passing the thread name
 		Thread t8 = new Thread("thread-t8");
 
 		Thread t2 = new Thread(runnable, "thread-t2");
