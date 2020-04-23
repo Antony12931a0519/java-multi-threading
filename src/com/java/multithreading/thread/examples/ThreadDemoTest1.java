@@ -6,13 +6,13 @@ public class ThreadDemoTest1 {
 		
 		ThreadDemo1 demo = new ThreadDemo1();
 		
-		Thread thred = new Thread(demo);
-		
+//		Thread thred = new Thread(demo);
+	/*	
 		thred.start();
 		for(int i=0;i<=10;i++) {
 			System.out.println("Main Thread:"+i);
 		}
-		thred.start();
+		thred.start();*/
 	}
 
 }
